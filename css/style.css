@@ -114,4 +114,7 @@ footer{
     section.hero img{
         width: 100%;
     }
+    section.learn ul li a,section.website a{
+        font-size: 90%;
+    }
 }
