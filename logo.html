@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo page</title>
+    <!-- Link to css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link to use font - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styling for this page -->
+    <style>
+        section.hero#logo{
+            padding-bottom: 3rem;
+        }
+        section.hero#logo h1 {
+            text-align: center;
+            margin: 0 0 2rem 0;
+        }
+
+        section.hero div.hero {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4,40vh);
+            gap: 2rem;
+        }
+        
+        section.hero div.hero img {
+            margin: 0;
+            display: block;
+            width: 100%;
+            /* height: 100%; */
+        }
+
+        section.hero div.test:nth-child(1) {
+            grid-column-start:1 ;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-image: url(./Images/Pic-1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(2) {
+            grid-column-start:2 ;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: url(./Images/Pic-2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(3) {
+            grid-column-start:3 ;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-image: url(./Images/Pic-3.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(4) {
+            grid-column-start:1 ;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-image: url(./Images/Pic-4.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(5) {
+            grid-column-start:3 ;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-image: url(./Images/Pic-5.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(6) {
+            grid-column-start:1 ;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-image: url(./Images/Pic-6.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(7) {
+            grid-column-start:3 ;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-image: url(./Images/Pic-7.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(8) {
+            grid-column-start:2 ;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            background-image: url(./Images/Pic-8.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        section.hero div.test:nth-child(9) {
+            grid-column-start:1 ;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            background-image: url(./Images/Pic-8.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Responsiveness */
+        @media(max-width:768px){
+            section.hero div.hero {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        }
+        @media(max-width:500px){
+            section.hero div.hero {
+            display: block;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(9,40vh);
+            gap: 2rem;
+            
+        }
+        section.hero div.test{
+            height: 35vh;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Images of developer's tech school and friends -->
+    <section class="hero" id="logo">
+        <!-- Link to images-logo of developer -->
+        <a href="./index.html" class="logo">Home</a>
+        <h1>My gallery</h1>
+        <div class="hero" id="hero">
+            <div class="test">
+                
+            </div>
+            <div class="test">
+                
+            </div>
+            <div class="test">
+                
+            </div>
+            <div class="test">
+                
+            </div>
+            <div class="test">
+                
+            </div>
+            <div class="test">
+            
+            </div>
+            <div class="test">
+                
+            </div>
+            <div class="test">
+                
+            </div>
+            <div class="test">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- website section -->
+    <section class="website">
+        <!--Link to my github here-->
+        <h3>My Github Profile</h3>
+        <a href="https://github.com/EdidiS">Click here to go to my github profile</a>
+        <!--Link to my linkedIn here-->
+        <h3 style="margin-top: 1rem;">My LinkedIn Profile</h3>
+        <a href="https://www.linkedin.com/in/edidiongbekeh/">Click here to go to my linkedIn profile</a>
+    </section>
+
+    <!-- Footer starts here -->
+    <footer>Copyright &#169; 2025 by Edidiong Bekeh</footer>
+</body>
+
+</html>
