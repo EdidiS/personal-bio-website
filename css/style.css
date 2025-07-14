@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--Beige-color);
+    font-family: var(--montserrat);
+}
+
+/* saved info used in docs */
+:root {
+    /* colors */
+    --Sage: #004030;
+    --Beige: #4a9782;
+    --Gray: #E5E0D8;
+    --White: #F8F8F8;
+    /* Fonts */
+    --montserrat: "Montserrat", sans-serif;
+}
+a:hover{
+ color: var(--Beige);
+}
+section {
+    padding: 3rem 5rem;
+}
+
+/* Hero section styling */
+section.hero {
+    background-color: var(--White);
+    padding: 0 5rem;
+}
+
+/* Styling for logo-name-link */
+.logo {
+    color: var(--Sage);
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+section.hero h1 {
+    margin: 2rem 0;
+    font-size: 200%;
+}
+
+/* hr styling */
+hr {
+    border-color: var(--Sage);
+}
+
+/* Styling for img-border */
+section.hero img {
+    border: 5px dashed var(--Beige);
+    margin: 2rem 0;
+}
+
+/* Second section */
+section.learn{
+    background: var(--Gray);
+    
+}
+
+h2 {
+    font-size: 150%;
+}
+
+section.learn ul {
+    list-style: none;
+}
+
+section.learn ul li {
+    margin-top: 1rem;
+}
+
+section.learn ul li a {
+    color: var(--Sage);
+}
+
+section.learn ul li a:hover {
+    color: var(--Beige);
+}
+
+/* third section styling */
+section.website {
+    background-color: var(--White);
+}
+section.website h3{
+    font-size: 120%;
+}
+section.website a{
+    margin-top: 1rem;
+    display: block;
+    color:var(--Sage);
+}
+
+/* footer styling */
+footer{
+    background-color: var(--Gray);
+    padding: 1.5rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media(max-width:500px){
+    section {
+        padding: 3rem 2rem;
+    }
+    section.hero {
+        background-color: var(--White);
+        padding: 0 2rem;
+    }
+    section.hero h1 {
+        font-size: 150%;
+    }
+    section.hero img{
+        width: 100%;
+    }
+}
